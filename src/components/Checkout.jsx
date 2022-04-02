@@ -48,7 +48,7 @@ const Checkout = () => {
                             <div className="row g-3">
                                 <div className="col-sm-6">
                                     <label htmlFor="firstName" className="form-label">First name</label>
-                                    <input type="text" className="form-control" id="firstName" placeholder="Mikhail" defaultValue="" required />
+                                    <input type="text" className="form-control" id="firstName" placeholder="John" defaultValue="" required />
                                     <div className="invalid-feedback">
                                         Valid first name is required.
                                     </div>
@@ -56,7 +56,7 @@ const Checkout = () => {
 
                                 <div className="col-sm-6">
                                     <label htmlFor="lastName" className="form-label">Last name</label>
-                                    <input type="text" className="form-control" id="lastName" placeholder="Goldeferg" defaultValue="" required />
+                                    <input type="text" className="form-control" id="lastName" placeholder="Smith" defaultValue="" required />
                                     <div className="invalid-feedback">
                                         Valid last name is required.
                                     </div>
@@ -120,7 +120,7 @@ const Checkout = () => {
 
                                 <div className="col-md-3">
                                     <label htmlFor="zip" className="form-label">Zip</label>
-                                    <input type="text" className="form-control" id="zip" placeholder="410000" required />
+                                    <input type="text" className="form-control" id="zip" placeholder="101010" required />
                                     <div className="invalid-feedback">
                                         Zip code required.
                                     </div>
@@ -161,7 +161,7 @@ const Checkout = () => {
                             <div className="row gy-3">
                                 <div className="col-md-6">
                                     <label htmlFor="cc-name" className="form-label">Name on card</label>
-                                    <input type="text" className="form-control" id="cc-name" placeholder="MIKHAIL GOLDEFERG" required />
+                                    <input type="text" className="form-control" id="cc-name" placeholder="JOHN SMITH" required />
                                     <small className="text-muted">Full name as displayed on card</small>
                                     <div className="invalid-feedback">
                                         Name on card is required
@@ -170,7 +170,7 @@ const Checkout = () => {
 
                                 <div className="col-md-6">
                                     <label htmlFor="cc-number" className="form-label">Credit card number</label>
-                                    <input type="text" className="form-control" id="cc-number" placeholder="0000-0000-0000-0000" required />
+                                    <input type="text" className="form-control" id="cc-number" placeholder="1111-1111-1111-1111" required />
                                     <div className="invalid-feedback">
                                         Credit card number is required
                                     </div>
@@ -178,7 +178,7 @@ const Checkout = () => {
 
                                 <div className="col-md-3">
                                     <label htmlFor="cc-expiration" className="form-label">Expiration</label>
-                                    <input type="text" className="form-control" id="cc-expiration" placeholder="00/00" required />
+                                    <input type="text" className="form-control" id="cc-expiration" placeholder="11/11" required />
                                     <div className="invalid-feedback">
                                         Expiration date required
                                     </div>
@@ -186,7 +186,7 @@ const Checkout = () => {
 
                                 <div className="col-md-3">
                                     <label htmlFor="cc-cvv" className="form-label">CVV</label>
-                                    <input type="text" className="form-control" id="cc-cvv" placeholder="000" required />
+                                    <input type="text" className="form-control" id="cc-cvv" placeholder="111" required />
                                     <div className="invalid-feedback">
                                         Security code required
                                     </div>

@@ -1,9 +1,8 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 import DATA from '../Data';
 
 const Product = () => {
-
     const cardItem = (item) => {
         return (
             <div className="card my-5 py-4" key={item.id} style={{width: "18rem"}}>
@@ -29,6 +28,12 @@ const Product = () => {
             </div>
             <div className="container">
                 <div className="row justify-content-around">
+                    <div className="buttons d-flex justify-content-center pb-5">
+                        <button className="btn btn-outline-dark me-2" >All</button>
+                        <button className="btn btn-outline-dark me-2" >Men's Clothing</button>
+                        <button className="btn btn-outline-dark me-2" >Women's Clothing</button>
+                        <button className="btn btn-outline-dark me-2" >Jewelery</button>
+                    </div>
                     {DATA.map(cardItem)}
                 </div>
             </div>
